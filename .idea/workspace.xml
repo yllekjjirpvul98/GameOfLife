@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="41fa203b-48ba-492e-bbd5-ec02c3fd1ce9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GoogleCodeRetreat.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/hamcrest-core-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-4.12.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/GoogleCodeRetreat/Grid.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/GoogleCodeRetreat/GridTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Grid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GridTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Grid.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Grid.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GridTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GridTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,11 +19,15 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/Grid.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+                <state relative-caret-position="102">
+                  <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
                   <folding>
                     <element signature="e#51#52#0" expanded="true" />
                     <element signature="e#78#79#0" expanded="true" />
+                    <element signature="e#160#161#0" expanded="true" />
+                    <element signature="e#193#194#0" expanded="true" />
+                    <element signature="e#165#166#0" expanded="true" />
+                    <element signature="e#200#201#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -52,8 +47,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/GridTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+                <state relative-caret-position="272">
+                  <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -88,8 +83,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/MainTest.java" />
-        <option value="$PROJECT_DIR$/src/GridTest.java" />
         <option value="$PROJECT_DIR$/src/Grid.java" />
+        <option value="$PROJECT_DIR$/src/GridTest.java" />
       </list>
     </option>
   </component>
@@ -131,7 +126,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581702015560" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1581702215745" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -147,7 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GridTest.testGetter">
+  <component name="RunManager" selected="JUnit.GridTest">
     <configuration name="GridTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GoogleCodeRetreat" />
       <option name="PACKAGE_NAME" value="" />
@@ -187,11 +182,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GridTest.testReturnStateSurvive" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GridTest.testSetter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="GoogleCodeRetreat" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GridTest" />
-      <option name="METHOD_NAME" value="testReturnStateSurvive" />
+      <option name="METHOD_NAME" value="testSetter" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -199,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.GridTest.testGetter" />
         <item itemvalue="JUnit.GridTest" />
+        <item itemvalue="JUnit.GridTest.testSetter" />
+        <item itemvalue="JUnit.GridTest.testGetter" />
         <item itemvalue="JUnit.GridTest.testCountAliveNeighbours" />
         <item itemvalue="JUnit.GridTest.testGetCellFalse" />
-        <item itemvalue="JUnit.GridTest.testReturnStateSurvive" />
       </list>
     </recent_temporary>
   </component>
@@ -217,20 +212,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581681009732</updated>
-      <workItem from="1581681020825" duration="14527000" />
+      <workItem from="1581681020825" duration="14752000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GridTest_testReturnStateSurvive - 2020.02.14 at 16h 58m 05s.xml">
-      <configuration name="GridTest.testReturnStateSurvive" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GridTest_testGetCellFalse - 2020.02.14 at 16h 59m 02s.xml">
-      <configuration name="GridTest.testGetCellFalse" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GridTest_testCountAliveNeighbours - 2020.02.14 at 17h 01m 22s.xml">
-      <configuration name="GridTest.testCountAliveNeighbours" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="GridTest - 2020.02.14 at 17h 05m 17s.xml">
       <configuration name="GridTest" configurationId="JUnit" />
     </history-entry>
@@ -252,9 +238,18 @@
     <history-entry file="GridTest - 2020.02.14 at 17h 27m 17s.xml">
       <configuration name="GridTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GridTest_testGetter - 2020.02.14 at 17h 40m 10s.xml">
+      <configuration name="GridTest.testGetter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GridTest_testGetter - 2020.02.14 at 17h 40m 30s.xml">
+      <configuration name="GridTest.testGetter" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GridTest_testSetter - 2020.02.14 at 17h 43m 44s.xml">
+      <configuration name="GridTest.testSetter" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14527000" />
+    <option name="totallyTimeSpent" value="14752000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
@@ -271,7 +266,7 @@
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3283582" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3283582" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -318,19 +313,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Grid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        <state relative-caret-position="102">
+          <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
           <folding>
             <element signature="e#51#52#0" expanded="true" />
             <element signature="e#78#79#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
+            <element signature="e#193#194#0" expanded="true" />
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GridTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="30" lean-forward="true" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        <state relative-caret-position="272">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

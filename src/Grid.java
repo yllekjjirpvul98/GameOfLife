@@ -7,4 +7,12 @@ public class Grid {
         return grid;
     }
 
+    public int getCell(int x, int y) {
+        return grid[x][y];
+    }
+
+    public void setCell(int x, int y, int value) {
+        this.grid[x][y] = value;
+    }
+
 }

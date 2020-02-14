@@ -34,6 +34,24 @@ public class Grid {
         }return count;
     }
 
+    public int[][] updateGrid() {
+        int[][] newGrid = new int[grid.length][grid[0].length];
+        for (int x = 0; x < newGrid.length; x++) {
+            for (int y =0; y < newGrid[0].length; y++) {
+                int aliveN = countAliveNeighbour(x, y);
+                if (aliveN < 2 || aliveN > 4) {
+                    newGrid[x][y] = 0;
+                }else if (aliveN == 3 && getCell(x,y) == 0) {
+                    newGrid[x][y] = 1;
+                }else if ((aliveN == 2 || aliveN == 3) && getCell(x, y) == 1) {
+                    newGrid[x][y] = 1;
+                }else {
+                    newGrid[x][y] = grid[x][y];
+                }
+            }
+        }return newGrid;
+    }
+
 
 
 }

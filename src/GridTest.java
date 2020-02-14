@@ -14,7 +14,7 @@ public class GridTest {
     public void testSetter() {
         Grid grid = new Grid();
         grid.setCell(0, 0, 1);
-        assertEquals(1, grid.getCell(0,0));
+        assertEquals(2, grid.getCell(0,0));
     }
 
     @Test
@@ -22,7 +22,17 @@ public class GridTest {
         Grid grid = new Grid();
         int[][] board = { {0, 0, 0}, {1,1,1}, {0,0,0}};
         grid.setGrid(board);
-        assertEquals(1, grid.countAliveNeighbour(1, 0) );
+        assertEquals(2, grid.countAliveNeighbour(0, 2) );
+    }
+
+    @Test
+    public void testUpdateGrid () {
+        Grid grid = new Grid();
+        int[][] board = { {0, 0, 0}, {1,1,1}, {0,0,0}};
+        int[][] exBoard = { {0, 1, 0}, {0,1,0}, {0,1,0}};
+        grid.setGrid(board);
+        int[][] newGrid = grid.updateGrid();
+        assertEquals(exBoard, newGrid);
     }
 
 }
